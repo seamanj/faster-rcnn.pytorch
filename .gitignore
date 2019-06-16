@@ -114,20 +114,14 @@ docs/source/scripts/activation_images/
 *_pb2.py
 
 # Compiled python
-*.pyc
 *.pyd
 
 # Compiled MATLAB
 *.mex*
 
 # IPython notebook checkpoints
-.ipynb_checkpoints
 
 # Editor temporaries
-*.swn
-*.swo
-*.swp
-*~
 
 # Sublime Text settings
 *.sublime-workspace
@@ -148,7 +142,6 @@ docs/source/scripts/activation_images/
 .vs
 
 # OSX dir files
-.DS_Store
 
 ## Caffe2
 
@@ -201,3 +194,4 @@ caffe2.egg-info
 # cython generated files
 lib/model/utils/bbox.c
 lib/pycocotools/_mask.c
+/data/
